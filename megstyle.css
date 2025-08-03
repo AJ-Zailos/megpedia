@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    width: 100%;
+    background-color: #887199;
+}
+
+nav {
+    height: 7vh;
+    width: 88%;
+    background-color: #0F155F;
+    margin-left: 6%;
+    margin-top: 4vh;
+    border-radius: 30px;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%; 
+}
+
+.logo img {
+    height: 6.5vh;
+}
+
+.nama {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4%;
+    margin-top: 0.5vh;
+}
+
+.nama img {
+    height: 4vh;
+}
+
+.party {
+    display: flex;
+    align-items: center;
+}
+
+.party img {
+    height: 5vh;
+}
+
+.mlet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mlet img {
+    height: 6vh;
+}
+
+.jlet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jlet img {
+    height: 6vh;
+}
+
+.one {
+    height: 100vh;
+}
+
+.one img {
+    height: 100%;
+}
+
+.two {
+    height: 100vh;
+    margin-top: -7vh;
+}
+
+.two img {
+    height: 100%;
+}
+
+.break {
+    height: 7vh;
+    width: 100%;
+    background-color: #0F155F;
+}
+
+.tres {
+    width: 100%;
+    position: relative;
+}
+
+.tresimg {
+    height: 39vh;
+    background-position: top;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.cams {
+    position: absolute;
+    z-index: 1;
+    margin-top: 13vh;
+    left: 18%;
+    height: 25vh;
+}
+
+footer {
+    background-color: #0F155F;
+    height: 7vh;
+    width: 100%;
+    margin-top: 39vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vh;
+    color: white;
+}
