@@ -70,6 +70,7 @@ nav {
 
 .one {
     height: 100vh;
+    width: 100%;
 }
 
 .one img {
@@ -78,6 +79,7 @@ nav {
 
 .two {
     height: 100vh;
+    width: 100%;
     margin-top: -7vh;
 }
 
@@ -128,3 +130,4 @@ footer h1 {
     color: white;
 
 }
+
