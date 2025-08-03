@@ -73,7 +73,7 @@ nav {
 }
 
 .one img {
-    height: 100%;
+    width: 100%;
 }
 
 .two {
@@ -82,7 +82,7 @@ nav {
 }
 
 .two img {
-    height: 100%;
+    width: 100%;
 }
 
 .break {
@@ -126,4 +126,5 @@ footer h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5vh;
     color: white;
+
 }
