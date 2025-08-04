@@ -78,10 +78,9 @@ nav {
 
 .box {
     width: 80%;
-    position: absolute;
     padding: 10px;
-    top: 20vh;
-    left: 10%;
+    margin-top: 20vh;
+    margin-left: 10%;
     background: white;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
@@ -104,6 +103,7 @@ button {
     color: white;
     cursor: pointer;
 }
+
 
 
 
