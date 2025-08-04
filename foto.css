@@ -140,6 +140,7 @@ footer h1 {
 }
 
 .slider {
+  scale: 1.2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -164,3 +165,4 @@ footer h1 {
   color: #000;
   transform: scale(1.2);
 }
+
