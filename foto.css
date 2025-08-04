@@ -2,6 +2,7 @@ body {
     margin: 0;
     width: 100%;
     background-color: #887199;
+    overflow-x: hidden;
 }
 
 nav {
@@ -164,6 +165,7 @@ footer h1 {
   color: #000;
   transform: scale(1.2);
 }
+
 
 
 
