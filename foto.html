@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meg's Gallery</title>
+    <link rel="stylesheet" href="foto.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="pass.html">
+                <img src="logo.png" alt="logo muka meg">
+            </a>
+        </div>
+        <div class="nama">
+            <a href="index.html">
+                <img src="nama.png" alt="nama website">
+            </a>
+        </div>
+        <div class="party">
+            <a href="index.html">
+                <img src="party.png" alt="partylogo">
+            </a>
+        </div>
+        <div class="mlet">
+            <a href="mlet.html">
+                <img src="mletter.png" alt="mletter">
+            </a>
+        </div>
+        <div class="jlet">
+            <a href="jlet.html">
+                <img src="jletter.png" alt="jletter">
+            </a>
+        </div>
+    </nav>
+    <div class="one"></div>
+    <div class="break"></div>
+    <div class="two"></div>
+    <div class="break"></div>
+    <div class="tres"></div>
+    <div class="break"></div>
+    <div class="four"></div>
+    <div class="break"></div>
+    <div class="five">
+        <div class="jeda"></div>
+        <div class="slider">
+            <button class="arrow left" onclick="changeSlide(-1)">&#10094;</button>
+            <img id="sliderImage" src="siji.png" alt="Photo">
+            <button class="arrow right" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+    </div>
+
+    <footer>
+        <h1>Credits by Mikel (Designer) & Justin (Programmer)</h1>
+    </footer>
+
+    <script>
+        const images = [
+            "siji.png",
+            "loro.png",
+            "telu.png",
+            "papat.png",
+            "lima.png",
+            "enam.png",
+            "tujuh.png",
+            "delapan.png",
+            "sembilan.png",
+            "sepuluh.png"
+        ];
+
+        let currentIndex = 0;
+
+        function changeSlide(direction) {
+            currentIndex += direction;
+
+            if (currentIndex < 0) {
+                currentIndex = images.length - 1;
+            } else if (currentIndex >= images.length) {
+                currentIndex = 0;
+            }
+
+            document.getElementById("sliderImage").src = images[currentIndex];
+        }
+    </script>
+</body>
+</html>
